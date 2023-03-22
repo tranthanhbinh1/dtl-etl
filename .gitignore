@@ -1,3 +1,5 @@
 #  venv
 /venv
 
+# logs
+/airflow/logs
