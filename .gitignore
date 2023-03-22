@@ -8,7 +8,7 @@
 /data
 
 #test file
-/test2.py
+crawler/test2.py
 
 #log
 /my_script.log

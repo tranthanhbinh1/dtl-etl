@@ -1,13 +1,8 @@
-import requests, logging
-from bs4 import BeautifulSoup
+import wget
 
-url = "https://links.sgx.com/1.0.0/derivatives-historical/5380/TC_structure.dat"
-# Check if data is available before downloading it
-def check():
-    response = requests.post(url)
 
-    if "No Record Found" in response.text:
-        logging.error("No Record Found")
-        return
+url = f"https://links.sgx.com/1.0.0/derivatives-historical/{id}/WEBPXTICK_DT.zip"
 
-check()
+for id in range(2756, 2771):
+    url1 = url.format(id)
+    wget.download(url1)
