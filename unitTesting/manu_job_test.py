@@ -15,7 +15,7 @@ class TestDownloadFile(unittest.TestCase):
         destination_folder = "data"
         mock_post.return_value.text = "No Record Found"
         
-        download_file((url, destination_folder))
+        download_file(url, destination_folder)
         
         self.assertTrue(mock_error.called)
         self.assertEqual(mock_error.call_args[0][0], "No Record Found")
@@ -25,7 +25,7 @@ class TestDownloadFile(unittest.TestCase):
         destination_folder = "data"
         mock_post.return_value.text = "Records Found"
         
-        download_file((url, destination_folder))
+        download_file(url, destination_folder)
         
         self.assertTrue(mock_info.called)
         self.assertEqual(mock_info.call_args[0][0], f"Successfully downloaded {url}")
@@ -40,7 +40,7 @@ class TestDownloadFile(unittest.TestCase):
         
         mock_download.side_effect = side_effect
     
-        download_file((url, destination_folder))
+        download_file(url, destination_folder)
         
         self.assertTrue(mock_error.called)
         self.assertEqual(mock_error.call_args[0][0], f"Error downloading {url}: Download error")
