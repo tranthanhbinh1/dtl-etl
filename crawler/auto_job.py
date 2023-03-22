@@ -1,6 +1,7 @@
-import wget, os
+import wget, os, requests
 from datetime import datetime, date
 from multiprocessing import Pool
+from config.default import get_urls_folders
 from utils.utils import create_folder, current_path, file_logger
 
 
@@ -16,6 +17,10 @@ def get_id_from_date(base_id, start_date):
 
 def download_file(args):
     url, destination_folder = args
+    response = requests.post(url)
+    if "No Record Found" in response.text:
+        file_logger.error("No Record Found")
+        return
     destination_path = os.path.join(current_path, destination_folder)
     try:
         wget.download(url, out=destination_path)
@@ -23,14 +28,7 @@ def download_file(args):
     except Exception as e:
         file_logger.error(f'Error downloading {url}: {e}')
     
-def get_urls_folders(id):
-    return [
-        (f"https://links.sgx.com/1.0.0/derivatives-historical/{id}/WEBPXTICK_DT.zip", "data/tick"),
-        (f"https://links.sgx.com/1.0.0/derivatives-historical/{id}/TickData_structure.dat", "data/tickDs"),
-        (f"https://links.sgx.com/1.0.0/derivatives-historical/{id}/TC.txt", "data/tradeCancel"),
-        (f"https://links.sgx.com/1.0.0/derivatives-historical/{id}/TC_structure.dat", "data/tradeCancelDs"),
-    ]
-
+    
 if __name__ == "__main__":
     create_folder()
 
