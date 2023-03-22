@@ -1,10 +1,8 @@
-import wget, os, logging
+import wget, os
 from datetime import datetime, date
 from multiprocessing import Pool
-from utils.utils import create_folder, current_path
+from utils.utils import create_folder, current_path, file_logger
 
-# Set up logging to write logs to a file
-logging.basicConfig(filename='my_script.log', level=logging.INFO)
 
 def get_id_from_date(base_id, start_date):
     # Get current date
@@ -13,7 +11,7 @@ def get_id_from_date(base_id, start_date):
     days_passed = (today - start_date).days
     # Increment base id by days passed
     id = base_id + days_passed
-    logging.info(f'Current id: {id}')
+    file_logger.info(f'Current id: {id}')
     return id
 
 def download_file(args):
@@ -21,9 +19,9 @@ def download_file(args):
     destination_path = os.path.join(current_path, destination_folder)
     try:
         wget.download(url, out=destination_path)
-        logging.info(f'Successfully downloaded {url}')
+        file_logger.info(f'Successfully downloaded {url}')
     except Exception as e:
-        logging.error(f'Error downloading {url}: {e}')
+        file_logger.error(f'Error downloading {url}: {e}')
     
 def get_urls_folders(id):
     return [

@@ -33,11 +33,9 @@ if __name__ == "__main__":
     
     if len(sys.argv) >= 3:
         link_index = int(sys.argv[2])
-        
         if link_index < 0 or link_index >= len(urls_folders):
             print(f"Invalid link index: {link_index}. Must be between 0 and {len(urls_folders)-1}")
             sys.exit(1)
-
         urls_folders = [urls_folders[link_index]]
     
     file_logger.info(f"Manually download with {id} and link index {link_index if len(sys.argv) >= 3 else 'all'}")
