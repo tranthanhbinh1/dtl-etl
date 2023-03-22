@@ -15,8 +15,7 @@ def get_id_from_date(base_id, start_date):
     file_logger.info(f'Current id: {id}')
     return id
 
-def download_file(args):
-    url, destination_folder = args
+def download_file(url, destination_folder):
     response = requests.post(url)
     if "No Record Found" in response.text:
         file_logger.error("No Record Found")
@@ -28,7 +27,7 @@ def download_file(args):
     except Exception as e:
         file_logger.error(f'Error downloading {url}: {e}')
     
-    
+
 if __name__ == "__main__":
     create_folder()
 

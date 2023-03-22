@@ -5,8 +5,7 @@ from utils.utils import current_path, create_folder, file_logger, console_logger
 from config.default import get_urls_folders
 
 
-def download_file(args):
-    url, destination_folder = args
+def download_file(url, destination_folder):
     # Check if the records are available
     response = requests.post(url)
     if "No Record Found" in response.text:

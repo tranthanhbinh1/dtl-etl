@@ -18,7 +18,7 @@ def create_folder():
 # Set up a logger to write logs to a file
 file_logger = logging.getLogger('file_logger')
 file_logger.setLevel(logging.INFO)
-file_handler = logging.FileHandler('my_script.log')
+file_handler = logging.FileHandler('job_logging.log')
 file_logger.addHandler(file_handler)
 
 # Set up a logger to write logs to the console
