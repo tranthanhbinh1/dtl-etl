@@ -3,3 +3,9 @@
 
 # logs
 /airflow/logs
+
+# data
+/data
+
+#test file
+/test2.py

@@ -3,3 +3,69 @@ INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-histor
 INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TickData_structure.dat
 INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TC_structure.dat
 INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5372
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5372
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5372
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/TC.txt
+ERROR:root:Error downloading https://links.sgx.com/1.0.0/derivatives-historical/5372/TickData_structure.dat: not enough values to unpack (expected 2, got 1)
+ERROR:root:Error downloading https://links.sgx.com/1.0.0/derivatives-historical/5372/TC_structure.dat: not enough values to unpack (expected 2, got 1)
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5372/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5371
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5371 and link index 3
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5371/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5300 and link index 3
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5300 and link index 0
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5300 and link index 0
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5300/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5380 and link index 0
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5380 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC.txt
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TickData_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC_structure.dat
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/WEBPXTICK_DT.zip
+INFO:root:Manually download with 5379 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TC.txt
+INFO:root:Manually download with 5381 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5381/TC.txt
+INFO:root:Manually download with 5382 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TC.txt
+INFO:root:Manually download with 5380 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC.txt
+INFO:root:Manually download with 5380 and link index 2
+INFO:root:Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5380/TC.txt
+INFO:root:Manually download with 5382 and link index 1
+ERROR:root:No Record Found
+Manually download with 5382 and link index 1
+Manually download with 5375 and link index all
+Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5375/TickData_structure.dat
+Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5375/TC_structure.dat
+Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5375/TC.txt
+Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5375/WEBPXTICK_DT.zip

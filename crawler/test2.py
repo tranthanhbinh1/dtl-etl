@@ -1,5 +1,13 @@
-import os
-from utils.utils import current_path
+import requests, logging
+from bs4 import BeautifulSoup
 
-x = os.path.join(current_path, "folder")
-print(x)
+url = "https://links.sgx.com/1.0.0/derivatives-historical/5380/TC_structure.dat"
+# Check if data is available before downloading it
+def check():
+    response = requests.post(url)
+
+    if "No Record Found" in response.text:
+        logging.error("No Record Found")
+        return
+
+check()

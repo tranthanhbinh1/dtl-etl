@@ -1,4 +1,4 @@
-import os
+import os, logging
 
 
 #get path
@@ -14,4 +14,15 @@ def create_folder():
         except FileExistsError:
             break
 
+# Loggers
+# Set up a logger to write logs to a file
+file_logger = logging.getLogger('file_logger')
+file_logger.setLevel(logging.INFO)
+file_handler = logging.FileHandler('my_script.log')
+file_logger.addHandler(file_handler)
 
+# Set up a logger to write logs to the console
+console_logger = logging.getLogger('console_logger')
+console_logger.setLevel(logging.INFO)
+stream_handler = logging.StreamHandler()
+console_logger.addHandler(stream_handler)
