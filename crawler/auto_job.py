@@ -1,19 +1,8 @@
-import wget, os, requests
-from datetime import datetime, date
+import wget, os
 from multiprocessing import Pool
-from config.default import get_urls_folders, base_id, ID_FILE_PATH
-from utils.utils import create_folder, current_path, file_logger, download_file_helper, check_data_available
-
-def get_last_id():
-    if not os.path.exists(ID_FILE_PATH):
-        return None
-    with open(ID_FILE_PATH, 'r') as f:
-        last_id = f.read().strip()
-        return int(last_id) if last_id else None
-
-def save_last_id(id):
-    with open(ID_FILE_PATH, 'w') as f:
-        f.write(str(id))
+from config.default import get_urls_folders, base_id
+from utils.utils import (create_folder, current_path, file_logger, download_file_helper, 
+                         check_data_available, get_last_id, save_last_id)
 
 
 def download_file(url, destination_folder):
@@ -30,7 +19,8 @@ def download_file(url, destination_folder):
 
 if __name__ == "__main__":
     create_folder()
-
+    get_last_id()
+    
     last_id = get_last_id()
     if last_id is None:
         # First run, use base id

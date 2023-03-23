@@ -1,5 +1,5 @@
 import os, logging
-
+from config.default import ID_FILE_PATH
 #get path
 current_path = os.getcwd()
 
@@ -39,3 +39,16 @@ def check_data_available(url):
     if "No Record Found" in response.text:
         return False
     return True
+
+# Retrive lastest id
+def get_last_id():
+    if not os.path.exists(ID_FILE_PATH):
+        return None
+    with open(ID_FILE_PATH, 'r') as f:
+        last_id = f.read().strip()
+        return int(last_id) if last_id else None
+    
+#   Save lastest id
+def save_last_id(id):
+    with open(ID_FILE_PATH, 'w') as f:
+        f.write(str(id))
