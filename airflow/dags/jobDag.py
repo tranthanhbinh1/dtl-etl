@@ -1,11 +1,12 @@
 from airflow import DAG
-from airflow.operators.bash import BashOperator
+from airflow.providers.ssh.operators.ssh import SSHOperator
 from datetime import datetime, timedelta
 
+
 default_args = {
-    'owner': 'airflow',
+    'owner': 'ThanhBinh',
     'depends_on_past': False,
-    'start_date': datetime(2023, 3, 20),
+    'start_date': datetime(2023, 3, 23),
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 5,
@@ -13,14 +14,15 @@ default_args = {
 }
 
 dag = DAG(
-    'your_dag_id',
+    'sgx_crawler',
     default_args=default_args,
-    description='Your DAG description',
+    description='SGX Crawler',
     schedule_interval='0 9 * * 1-5', # Run at 9am every weekday
 )
 
-t1 = BashOperator(
+t1 = SSHOperator(
     task_id='run_script',
-    bash_command='python -m crawler.auto_job',
+    ssh_conn_id='sshwsl',
+    command='cd /home/tb24/projects/dytechlab && source venv/bin/activate && python -m crawler.auto_job',
     dag=dag,
 )

@@ -1,3 +1,4 @@
 requests
 wget
 bs4
+apache-airflow-providers-ssh
