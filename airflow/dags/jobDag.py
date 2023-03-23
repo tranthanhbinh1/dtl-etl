@@ -8,7 +8,7 @@ default_args = {
     'start_date': datetime(2023, 3, 20),
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 3,
+    'retries': 5,
     'retry_delay': timedelta(hours=1)
 }
 
@@ -16,11 +16,11 @@ dag = DAG(
     'your_dag_id',
     default_args=default_args,
     description='Your DAG description',
-    schedule_interval=timedelta(days=1),
+    schedule_interval='0 9 * * 1-5', # Run at 9am every weekday
 )
 
 t1 = BashOperator(
     task_id='run_script',
-    bash_command='python /path/to/your/script.py',
+    bash_command='python -m crawler.auto_job',
     dag=dag,
 )
