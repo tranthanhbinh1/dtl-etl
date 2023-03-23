@@ -1,6 +1,5 @@
 import os, logging
 
-
 #get path
 current_path = os.getcwd()
 
@@ -26,3 +25,17 @@ console_logger = logging.getLogger('console_logger')
 console_logger.setLevel(logging.INFO)
 stream_handler = logging.StreamHandler()
 console_logger.addHandler(stream_handler)
+
+# This was created to help with an error after I installed airflow, still dont know what caused the issue, but this worked
+def download_file_helper(url_folder):
+    from crawler.manu_job import download_file
+    url, destination_folder = url_folder
+    download_file(url, destination_folder)
+
+# Checking if the data is available
+def check_data_available(url):
+    import requests
+    response = requests.get(url)
+    if "No Record Found" in response.text:
+        return False
+    return True

@@ -12,3 +12,5 @@ crawler/test2.py
 
 #log
 /my_script.log
+
+/.vscode

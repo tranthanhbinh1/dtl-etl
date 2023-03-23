@@ -1,14 +1,12 @@
 import wget, os, sys, requests
-from bs4 import BeautifulSoup
 from multiprocessing import Pool
-from utils.utils import current_path, create_folder, file_logger, console_logger
+from utils.utils import current_path, create_folder, file_logger, console_logger, download_file_helper, check_data_available
 from config.default import get_urls_folders
 
 
 def download_file(url, destination_folder):
     # Check if the records are available
-    response = requests.post(url)
-    if "No Record Found" in response.text:
+    if check_data_available(url) == False:
         console_logger.error("No Record Found")
         return
     destination_path = os.path.join(current_path, destination_folder)
@@ -36,11 +34,11 @@ if __name__ == "__main__":
             print(f"Invalid link index: {link_index}. Must be between 0 and {len(urls_folders)-1}")
             sys.exit(1)
         urls_folders = [urls_folders[link_index]]
-    
+
     file_logger.info(f"Manually download with {id} and link index {link_index if len(sys.argv) >= 3 else 'all'}")
     
     with Pool() as pool:
-        pool.map(download_file, urls_folders)
+        pool.map(download_file_helper, urls_folders)
 
 
 

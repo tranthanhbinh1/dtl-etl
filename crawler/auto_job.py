@@ -1,23 +1,23 @@
 import wget, os, requests
 from datetime import datetime, date
 from multiprocessing import Pool
-from config.default import get_urls_folders
-from utils.utils import create_folder, current_path, file_logger
+from config.default import get_urls_folders, base_id, ID_FILE_PATH
+from utils.utils import create_folder, current_path, file_logger, download_file_helper, check_data_available
 
+def get_last_id():
+    if not os.path.exists(ID_FILE_PATH):
+        return None
+    with open(ID_FILE_PATH, 'r') as f:
+        last_id = f.read().strip()
+        return int(last_id) if last_id else None
 
-def get_id_from_date(base_id, start_date):
-    # Get current date
-    today = datetime.now()
-    # Calculate days passed since start date
-    days_passed = (today - start_date).days
-    # Increment base id by days passed
-    id = base_id + days_passed
-    file_logger.info(f'Current id: {id}')
-    return id
+def save_last_id(id):
+    with open(ID_FILE_PATH, 'w') as f:
+        f.write(str(id))
+
 
 def download_file(url, destination_folder):
-    response = requests.post(url)
-    if "No Record Found" in response.text:
+    if check_data_available(url) == False:
         file_logger.error("No Record Found")
         return
     destination_path = os.path.join(current_path, destination_folder)
@@ -31,14 +31,18 @@ def download_file(url, destination_folder):
 if __name__ == "__main__":
     create_folder()
 
-    # Set base id and start date
-    base_id = 5379
-    start_date = datetime(2023, 3, 20)
-
-    # Get id from current date and base id
-    id = get_id_from_date(base_id, start_date)
+    last_id = get_last_id()
+    if last_id is None:
+        # First run, use base id
+        id = base_id
+    else:
+        # Increment last id by 1
+        id = last_id + 1
+    # Save the current id for next run
+    save_last_id(id)
 
     urls_folders = get_urls_folders(id)
 
     with Pool() as pool:
-        pool.map(download_file, urls_folders)
+        pool.map(download_file_helper, urls_folders)
+
