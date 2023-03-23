@@ -38,7 +38,7 @@ if __name__ == "__main__":
     else:
         # Increment last id by 1
         id = last_id + 1
-    # Save the current id for next run
+    # If the Id is valid, save the current id for next run
     if check_data_available(get_urls_folders(id)[0][0]):
         save_last_id(id)
 
