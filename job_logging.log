@@ -200,3 +200,7 @@ Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5381/
 Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5381/TickData_structure.dat
 Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5381/WEBPXTICK_DT.zip
 Manually download with 5383 and link index all
+2023-03-24 21:38:43,059 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TickData_structure.dat
+2023-03-24 21:38:43,827 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TC_structure.dat
+2023-03-24 21:38:44,851 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TC.txt
+2023-03-24 21:39:00,269 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/WEBPXTICK_DT.zip

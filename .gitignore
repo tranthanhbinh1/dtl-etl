@@ -20,3 +20,4 @@ airflow/logs/scheduler/latest
 airflow/logs/dag_processor_manager/dag_processor_manager.log
 testing.ipynb
 crawler/test2.py
+unitTesting/__pycache__
