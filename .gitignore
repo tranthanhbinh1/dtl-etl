@@ -18,3 +18,5 @@ airflow/dags/__pycache__/jobDag.cpython-37.pyc
 airflow/logs/dag_processor_manager/dag_processor_manager.log
 airflow/logs/scheduler/latest
 airflow/logs/dag_processor_manager/dag_processor_manager.log
+testing.ipynb
+crawler/test2.py

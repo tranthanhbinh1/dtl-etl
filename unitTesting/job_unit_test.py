@@ -45,5 +45,5 @@ class TestDownloadFile(unittest.TestCase):
         self.assertTrue(mock_error.called)
         self.assertEqual(mock_error.call_args[0][0], f"Error downloading {url}: Download error")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
    unittest.main()

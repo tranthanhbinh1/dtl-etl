@@ -1,7 +1,9 @@
-import wget, os, sys, requests
+import wget, os, sys
+from datetime import datetime
 from multiprocessing import Pool
-from utils.utils import current_path, create_folder, file_logger, console_logger, download_file_helper, check_data_available
-from config.default import get_urls_folders
+from utils.utils import (current_path, create_folder, file_logger, 
+                         console_logger, download_file_helper, check_data_available)
+from config.default import get_urls_folders, base_id
 
 
 def download_file(url, destination_folder):
@@ -21,10 +23,16 @@ if __name__ == "__main__":
     create_folder()
 
     if len(sys.argv) < 2:
-        print("Command: python -m crawler.test [id] [optional: link_index]")
+        print("Command: python -m crawler.test [date] [optional: link_index]")
         sys.exit(1)
 
-    id = sys.argv[1]
+    date_str = sys.argv[1]
+    date = datetime.strptime(date_str, '%Y-%m-%d')
+    
+    # Calculate the ID for the given date
+    start_date = datetime(2023, 3, 20)
+    days_difference = (date - start_date).days
+    id = base_id + days_difference
     
     urls_folders = get_urls_folders(id)
     
