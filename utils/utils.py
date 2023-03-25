@@ -70,5 +70,3 @@ def calculate_id(date, base_id):
     id = base_id + days_difference
     return id 
 
-cal = Singapore()
-print(cal.get_working_days_delta(datetime(2022, 9, 1), datetime(2023, 3, 20)))
