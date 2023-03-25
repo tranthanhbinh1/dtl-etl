@@ -1,5 +1,5 @@
 import wget, os, sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from multiprocessing import Pool
 from utils.utils import (current_path, create_folder, file_logger, calculate_id,
                          console_logger, download_file_helper, check_data_available)

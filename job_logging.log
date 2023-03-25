@@ -264,3 +264,68 @@ Manually download with 5383 and link index all
 2023-03-25 11:31:25,557 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TickData_structure.dat
 2023-03-25 11:31:25,610 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TC_structure.dat
 2023-03-25 11:31:33,729 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/WEBPXTICK_DT.zip
+2023-03-25 11:42:59,514 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 11:43:00,010 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5378/TC.txt
+2023-03-25 11:43:01,124 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5378/TickData_structure.dat
+2023-03-25 11:43:01,126 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5378/TC_structure.dat
+2023-03-25 11:43:05,692 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5378/WEBPXTICK_DT.zip
+2023-03-25 11:43:33,837 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 11:43:34,528 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5346/TC.txt
+2023-03-25 11:45:38,479 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 11:45:39,426 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5326/TC.txt
+2023-03-25 11:46:29,228 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 11:46:29,882 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5328/TC.txt
+2023-03-25 13:10:28,135 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 13:10:28,885 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5340/TC.txt
+2023-03-25 13:10:29,025 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5340/TC_structure.dat
+2023-03-25 13:10:29,200 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5340/TickData_structure.dat
+2023-03-25 13:10:32,812 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5340/WEBPXTICK_DT.zip
+2023-03-25 13:11:37,378 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:11:39,313 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 13:12:13,955 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:12:14,334 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5340/TC.txt
+2023-03-25 13:12:38,266 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:12:38,909 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5234/TC.txt
+2023-03-25 13:13:27,561 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:13:28,381 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5234/TC.txt
+2023-03-25 13:14:55,402 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:14:56,033 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5234/TC.txt
+2023-03-25 13:17:00,917 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:17:01,525 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5076/TC.txt
+2023-03-25 13:17:11,878 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:17:12,372 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5326/TC.txt
+2023-03-25 13:26:05,855 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:26:06,312 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5326/TC.txt
+2023-03-25 13:39:44,739 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:39:45,256 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5326/TC.txt
+2023-03-25 13:40:29,644 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:40:30,222 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5327/TC.txt
+2023-03-25 13:40:44,742 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:40:45,154 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5328/TC.txt
+2023-03-25 13:43:30,986 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:43:31,803 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5327/TC.txt
+2023-03-25 13:43:58,886 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:43:59,218 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5328/TC.txt
+2023-03-25 13:51:56,734 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:52:25,298 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 13:52:25,616 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5327/TC.txt
+2023-03-25 14:18:17,946 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:18:18,347 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5327/TC.txt
+2023-03-25 14:24:30,267 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:24:30,982 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt
+2023-03-25 14:24:54,804 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:24:55,482 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5247/TC.txt
+2023-03-25 14:25:15,249 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:25:16,048 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5237/TC.txt
+2023-03-25 14:28:23,151 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:28:23,828 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5241/TC.txt
+2023-03-25 14:33:37,421 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:33:37,771 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5326/TC.txt
+2023-03-25 14:35:46,638 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:35:47,364 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5241/TC.txt
+2023-03-25 14:45:32,355 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:45:32,782 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt
+2023-03-25 14:45:58,639 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:45:59,006 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt
+2023-03-25 14:46:31,307 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 14:46:31,622 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt

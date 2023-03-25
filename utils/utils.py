@@ -64,9 +64,11 @@ def save_last_id(id):
 def calculate_id(date, base_id):
     start_date = datetime(2023, 3, 20)
     cal = Singapore()
-    days_difference = cal.get_working_days_delta(start_date, date)
+    days_difference = cal.get_working_days_delta(start_date, date)+1
     if start_date > date:
         days_difference = -days_difference
     id = base_id + days_difference
     return id 
 
+cal = Singapore()
+print(cal.get_working_days_delta(datetime(2022, 9, 1), datetime(2023, 3, 20)))
