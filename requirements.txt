@@ -2,3 +2,4 @@ requests
 wget
 apache-airflow-providers-ssh
 apache-airflow
+workalendar
