@@ -15,8 +15,10 @@ def download_file(url, destination_folder):
     try:
         wget.download(url, out=destination_path)
         file_logger.info(f'Successfully downloaded {url}')
+        console_logger.info(f'Successfully downloaded {url}')
     except Exception as e:
         file_logger.error(f'Error downloading {url}: {e}')
+        console_logger.error(f'Error downloading {url}: {e}')
 
 
 if __name__ == "__main__":
