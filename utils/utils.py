@@ -70,4 +70,3 @@ def calculate_id(date, base_id):
     id = base_id + days_difference
     return id 
 
-calculate_id(datetime(2023,3,1), base_id)
