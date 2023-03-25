@@ -211,3 +211,56 @@ Manually download with 5383 and link index all
 2023-03-25 09:33:30,984 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TickData_structure.dat
 2023-03-25 09:33:31,056 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TC_structure.dat
 2023-03-25 09:33:35,749 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/WEBPXTICK_DT.zip
+2023-03-25 10:07:12,447 - file_logger - INFO - Manually download with 1816 and link index all
+2023-03-25 10:07:14,229 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/1816/TC_structure.dat
+2023-03-25 10:07:14,233 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/1816/TickData_structure.dat
+2023-03-25 10:07:14,475 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/1816/WEBPXTICK_DT.zip
+2023-03-25 10:07:15,337 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/1816/TC.txt
+2023-03-25 10:12:23,902 - file_logger - INFO - Manually download with 5103 and link index all
+2023-03-25 10:12:24,547 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5103/TC.txt
+2023-03-25 10:12:24,815 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5103/TickData_structure.dat
+2023-03-25 10:12:24,836 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5103/TC_structure.dat
+2023-03-25 10:12:33,118 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5103/WEBPXTICK_DT.zip
+2023-03-25 10:16:43,928 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:16:45,634 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 10:16:45,715 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/WEBPXTICK_DT.zip: HTTP Error 500: Internal Server Error
+2023-03-25 10:16:45,731 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:16:45,790 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TickData_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:18:14,548 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:18:15,968 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 10:18:15,975 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:18:15,976 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TickData_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:18:16,027 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/WEBPXTICK_DT.zip: HTTP Error 500: Internal Server Error
+2023-03-25 10:23:22,573 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:23:23,543 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/WEBPXTICK_DT.zip: HTTP Error 500: Internal Server Error
+2023-03-25 10:23:23,580 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TickData_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:23:23,591 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:23:23,635 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 10:26:37,103 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:26:37,893 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TickData_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:26:38,102 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 10:26:38,171 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:26:38,235 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/WEBPXTICK_DT.zip: HTTP Error 500: Internal Server Error
+2023-03-25 10:27:10,146 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:27:10,830 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TickData_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:27:10,832 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/WEBPXTICK_DT.zip: HTTP Error 500: Internal Server Error
+2023-03-25 10:27:10,871 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC_structure.dat: HTTP Error 500: Internal Server Error
+2023-03-25 10:27:11,499 - file_logger - ERROR - Error downloading https://links.sgx.com/1.0.0/derivatives-historical/<built-in function id>/TC.txt: HTTP Error 500: Internal Server Error
+2023-03-25 10:34:32,364 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 10:34:32,958 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TC.txt
+2023-03-25 10:34:33,236 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TickData_structure.dat
+2023-03-25 10:34:33,288 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TC_structure.dat
+2023-03-25 10:34:40,758 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/WEBPXTICK_DT.zip
+2023-03-25 11:00:43,902 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 11:00:44,568 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5106/TC.txt
+2023-03-25 11:20:41,970 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 11:21:32,691 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 11:23:44,448 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TC.txt
+2023-03-25 11:23:45,034 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TickData_structure.dat
+2023-03-25 11:23:45,148 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TC_structure.dat
+2023-03-25 11:23:50,072 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/WEBPXTICK_DT.zip
+2023-03-25 11:31:24,547 - file_logger - INFO - Manually download with <built-in function id> and link index all
+2023-03-25 11:31:25,093 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TC.txt
+2023-03-25 11:31:25,557 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TickData_structure.dat
+2023-03-25 11:31:25,610 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/TC_structure.dat
+2023-03-25 11:31:33,729 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5366/WEBPXTICK_DT.zip

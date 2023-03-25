@@ -1,5 +1,7 @@
 import os, logging
-from config.default import ID_FILE_PATH
+from datetime import datetime, timedelta
+from workalendar.asia import Singapore
+from config.default import ID_FILE_PATH, base_id
 
 #get path
 current_path = os.getcwd()
@@ -57,3 +59,15 @@ def get_last_id():
 def save_last_id(id):
     with open(ID_FILE_PATH, 'w') as f:
         f.write(str(id))
+
+# Calculate the ID for the given date
+def calculate_id(date, base_id):
+    start_date = datetime(2023, 3, 20)
+    cal = Singapore()
+    days_difference = cal.get_working_days_delta(start_date, date)
+    if start_date > date:
+        days_difference = -days_difference
+    id = base_id + days_difference
+    return id 
+
+calculate_id(datetime(2023,3,1), base_id)

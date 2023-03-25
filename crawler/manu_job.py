@@ -1,7 +1,7 @@
 import wget, os, sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from multiprocessing import Pool
-from utils.utils import (current_path, create_folder, file_logger, 
+from utils.utils import (current_path, create_folder, file_logger, calculate_id,
                          console_logger, download_file_helper, check_data_available)
 from config.default import get_urls_folders, base_id
 
@@ -31,12 +31,7 @@ if __name__ == "__main__":
     date_str = sys.argv[1]
     date = datetime.strptime(date_str, '%Y-%m-%d')
     
-    # Calculate the ID for the given date
-    start_date = datetime(2023, 3, 20)
-    days_difference = (date - start_date).days
-    id = base_id + days_difference
-    
-    urls_folders = get_urls_folders(id)
+    urls_folders = get_urls_folders(calculate_id(date, base_id))
     
     if len(sys.argv) >= 3:
         link_index = int(sys.argv[2])
