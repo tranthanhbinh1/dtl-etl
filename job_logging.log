@@ -329,3 +329,9 @@ Manually download with 5383 and link index all
 2023-03-25 14:45:59,006 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt
 2023-03-25 14:46:31,307 - file_logger - INFO - Manually download with <built-in function id> and link index 2
 2023-03-25 14:46:31,622 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5240/TC.txt
+2023-03-25 16:45:29,017 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 16:46:34,744 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 16:47:20,909 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 16:47:21,436 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5382/TC.txt
+2023-03-25 16:47:24,976 - file_logger - INFO - Manually download with <built-in function id> and link index 2
+2023-03-25 16:47:25,430 - file_logger - INFO - Successfully downloaded https://links.sgx.com/1.0.0/derivatives-historical/5379/TC.txt
