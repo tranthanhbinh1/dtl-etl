@@ -17,7 +17,7 @@ dag = DAG(
     'sgx_crawler',
     default_args=default_args,
     description='SGX Crawler',
-    schedule_interval='0 9 * * 1-5', # Run at 9am every weekday
+    schedule_interval='0 18 * * 1-5', # Run at 10am every weekday - Singapore time, or
 )
 
 t1 = SSHOperator(
