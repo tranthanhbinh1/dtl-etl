@@ -21,5 +21,11 @@ airflow/logs/dag_processor_manager/dag_processor_manager.log
 testing.ipynb
 crawler/test2.py
 unitTesting/__pycache__
-__pycache__
 .pytest_cache
+/__pycache__
+test/calculate_id/__pycache__/test_calculate_id.cpython-310-pytest-7.2.2.pyc
+.gitignore
+test/check_data_available/__pycache__/test_data_available.cpython-310-pytest-7.2.2.pyc
+.gitignore
+test/download_file/__pycache__/test_manu_job.cpython-310-pytest-7.2.2.pyc
+test/create_folder/__pycache__/test_create_folder.cpython-310-pytest-7.2.2.pyc
