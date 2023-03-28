@@ -20,7 +20,7 @@ Improvements still need to be made for the following functions:
 - Manual job, right now the date argument is still inaccurate with a big margin of error, therefore an alternative has been implemented with file ID as an indicator.
 - The manuall job was made with a scope of being able to accept config files, but as of now it has not been implemented.
 
-To run the project, clone it, create a virtual environent, and install:
+To run the project, clone it, create a virtual environent, (personally I use python 3.10, but 3.7 and above should be fine) and install:
 ```
 pip install -r requirements.txt
 ```
