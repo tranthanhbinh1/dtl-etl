@@ -22,10 +22,12 @@ Improvements still need to be made for the following functions:
 
 To run the project, clone it, create a virtual environent, and install:
 ```
-pip install -r requirements.txt\
+pip install -r requirements.txt
 ```
 Activate the environment.
 To run the manual job, run:
 ```
 python -m crawler.manu_job [date] [optional: file index]
 ```
+To run the alternate manual job, run:
+
