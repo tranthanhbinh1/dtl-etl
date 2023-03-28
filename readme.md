@@ -1,3 +1,7 @@
+**Scope
+
+
+
 The code is structured as follow:
 - airflow: the job's DAG is stored here.
 - config: where all the default values are stored.
