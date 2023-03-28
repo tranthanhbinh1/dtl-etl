@@ -30,4 +30,7 @@ To run the manual job, run:
 python -m crawler.manu_job [date] [optional: file index]
 ```
 To run the alternate manual job, run:
+```
+python -m crawler.manu_job_alternate [id] [optional: file index]
+```
 
