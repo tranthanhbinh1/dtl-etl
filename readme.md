@@ -1,4 +1,4 @@
-# Singapore Exchange derivative data pipeline
+# Singapore Exchange (SGX) derivative data pipeline
 The program aims to automatically download derivative data published daily from SGX - Singapore Stock exchange.
 
 The program includes 2 parts: 
